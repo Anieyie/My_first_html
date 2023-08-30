@@ -1,5 +1,5 @@
 <h2>CatPhotoApp</h2>
-<main>
+<main type="background-colour=red">
     <p>Click here to view more <a href="#" target="_blank">cat photos</a>
     </p>
     <a href="#footer"> Jump to Buttom</a>
@@ -25,9 +25,25 @@
            <li>Loud noices</li>
            <li> Spoilt food</li>
          </ol>
+
          <form action="https://www.freecatphotoapp.com/submit-cat-photo" target="_blank">
-         <input type="email" placeholder="Enter email" required>  <button type="submit">Submit</button>
-        </form> <br>
+         <input type="email" placeholder="Enter email" required> 
+          <button type="submit">Submit</button> 
+          <br>
+          <label for="indoor">
+            <input id="indoor" type="radio" name="indoor-outdoor">Indoor
+
+            </label>
+          <br>
+            <label for="outdoor">
+              <input id="outdoor" type="radio" name="indoor-outdoor">Outdoor
+              </label>
+<br>
+            <label for="committee">
+              <input id="committee" type="radio" name="indoor-outdoor">committee
+            </label>
+        </form> 
+        <br>
          <input type="checkbox"> <br>
          <footer id="footer">Copyright Cat Photo App</footer>
 </main>
