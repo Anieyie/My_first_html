@@ -1,0 +1,19 @@
+  p{
+   font-family: Monstserrat;
+   margin-top: 0px;
+   margin-bottom: 5px;
+  }
+.Model {
+  font-size: 28px;
+  font-weight: bold;
+  text-align: center;
+}
+.order {
+  font-size: 20px;
+  font-weight: normal;
+  text-align: center;
+}
+.Delivery {
+  font-size: 20px;
+  text-decoration: underline;
+}

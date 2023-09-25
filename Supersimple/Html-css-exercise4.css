@@ -1,0 +1,50 @@
+  p {
+    font-family: Roboto;
+    font-weight: bold;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  button {
+    text-align: center;
+  }
+  .new {
+    color: rgb(200, 100, 30);
+    font-size: 14px;
+  }
+  .apple {
+    font-size: 24px;
+    margin-bottom: 0px;
+  }
+  .description {
+    font-size: 30px;
+  }
+  .price {
+    font-weight: normal;
+    color: rgba(0, 0, 0, 0.7);
+    font-size: 14px;
+  }
+  .buy {
+    font-weight: bold;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 12px;
+    padding-right: 12px;
+    border: none;
+    border-radius: 12px;
+    background-color: rgb(30, 100, 200);
+    color: white;
+    margin: auto;
+    cursor: pointer;
+    display: grid;
+    transition: padding-left 0.15s, padding-right 0.15s, background-color 0.15s, margin-left 0.15s;
+  }
+  .buy:hover {
+    padding-left: 18px;
+    padding-right: 18px;
+    margin-left: 142px;
+  }
+  .buy:active {
+    background-color: darkred;
+  }
+  

@@ -1,2 +1,1 @@
-1. My  first html project
-2. freeCodeCamp exercises
+These projects are just for personal practice. I will be creating a YouTube clone website at the end of the day.
